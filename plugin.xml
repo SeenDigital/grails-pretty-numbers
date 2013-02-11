@@ -1,0 +1,29 @@
+<plugin name='pretty-numbers' version='0.1' grailsVersion='2.1 &gt; *'>
+  <author>Ryan Nickell</author>
+  <authorEmail>ryan@venueseen.com</authorEmail>
+  <title>Pretty Numbers Plugin</title>
+  <description>Formats large numbers into non-standard notation to reduce
+the number of characters used to represent a number.
+For example, 12555 formats to 12.6K, providing a predictable
+maximum width of characters. The maximum value that the
+formatting gets applied is Trillions.
+K - Thousand
+M - Million
+B - Billion
+T - Trillion
+</description>
+  <documentation>http://grails.org/plugin/pretty-numbers</documentation>
+  <type>PrettyNumbersGrailsPlugin</type>
+  <resources>
+    <resource>com.venueseen.PrettyNumbersTagLib</resource>
+  </resources>
+  <repositories>
+    <repository name='grailsCentral' url='http://grails.org/plugins' />
+    <repository name='http://repo.grails.org/grails/core' url='http://repo.grails.org/grails/core/' />
+    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
+  </repositories>
+  <dependencies />
+  <plugins />
+  <runtimePluginRequirements />
+  <behavior />
+</plugin>
